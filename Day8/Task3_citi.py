@@ -20,6 +20,8 @@ driver.find_element(By.XPATH, "//div[contains(text(),'Forgot User')]").click()
 driver.find_element(By.LINK_TEXT, "select your product type").click()
 driver.find_element(By.LINK_TEXT, "Credit Card").click()
 
+
+
 driver.find_element(By.CSS_SELECTOR, "#citiCard1").send_keys("7897")
 driver.find_element(By.CSS_SELECTOR, "input[name='citiCard2']").send_keys("7897")
 driver.find_element(By.CSS_SELECTOR, "[name='citiCard3']").send_keys("7897")
